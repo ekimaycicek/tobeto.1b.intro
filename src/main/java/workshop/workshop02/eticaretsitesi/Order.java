@@ -1,4 +1,4 @@
-package workshop.workshop02;
+package workshop.workshop02.eticaretsitesi;
 
 public class Order {
     private int id;
