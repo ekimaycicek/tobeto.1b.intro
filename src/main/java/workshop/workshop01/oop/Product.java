@@ -7,6 +7,9 @@ public class Product {
     private String imageUrl;
     private int unitsInStock;
 
+    public Product(int i, String iPhone, int i1) {
+    }
+
     public String getName() {
         return name;
     }
