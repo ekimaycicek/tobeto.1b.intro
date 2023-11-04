@@ -1,8 +1,8 @@
 package workshop.workshop02.oopWithNLayeredApp.business;
 
-import workshop.workshop01.oop.Product;
 import workshop.workshop02.oopWithNLayeredApp.core.logging.Logger;
 import workshop.workshop02.oopWithNLayeredApp.dataAccess.ProductDao;
+import workshop.workshop02.oopWithNLayeredApp.entities.Product;
 
 public class ProductManager {
     private ProductDao productDao;
