@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #0033b3;}
+.s1 { color: #080808;}
+.s2 { color: #067d17;}
+.s3 { color: #8c8c8c; font-style: italic;}
+.s4 { color: #1750eb;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">workshop.workshop01;</span>
+
+<span class="s0">public class </span><span class="s1">Main {</span>
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s1">System.out.println(</span><span class="s2">&quot;Hello World!&quot;</span><span class="s1">);</span>
+
+        <span class="s3">//degisken isimleri java'da camelCase yazilir</span>
+        <span class="s1">String ortaMetin = </span><span class="s2">&quot;Ilginizi cekebilir&quot;</span><span class="s1">;</span>
+        <span class="s1">String altMetin = </span><span class="s2">&quot;Vade Suresi&quot;</span><span class="s1">;</span>
+
+        <span class="s1">System.out.println(ortaMetin);</span>
+
+        <span class="s3">//integer</span>
+        <span class="s0">int </span><span class="s1">vade =</span><span class="s4">12</span><span class="s1">;</span>
+
+        <span class="s0">double </span><span class="s1">dolarDun = </span><span class="s4">18.14</span><span class="s1">;</span>
+        <span class="s0">double </span><span class="s1">dolarBugun = </span><span class="s4">18.10</span><span class="s1">;</span>
+
+        <span class="s0">boolean </span><span class="s1">dolarDustumu = </span><span class="s0">false</span><span class="s1">;</span>
+
+        <span class="s1">String okYonu = </span><span class="s2">&quot;&quot;</span><span class="s1">;</span>
+
+        <span class="s0">if </span><span class="s1">(dolarBugun&lt;dolarDun) { </span><span class="s3">//false</span>
+            <span class="s1">okYonu = </span><span class="s2">&quot;down.svg&quot;</span><span class="s1">;</span>
+            <span class="s1">System.out.println(okYonu);</span>
+        <span class="s1">}</span><span class="s0">else if </span><span class="s1">(dolarBugun&gt;dolarDun){</span>
+            <span class="s1">okYonu = </span><span class="s2">&quot;up.svg&quot;</span><span class="s1">;</span>
+            <span class="s1">System.out.println(okYonu);</span>
+        <span class="s1">} </span><span class="s0">else </span><span class="s1">{</span>
+            <span class="s1">okYonu = </span><span class="s2">&quot;up.svg&quot;</span><span class="s1">;</span>
+            <span class="s1">System.out.println(okYonu);</span>
+        <span class="s1">}</span>
+
+        <span class="s3">//array</span>
+
+        <span class="s1">String[] krediler = {</span><span class="s2">&quot;Hizli Kredi&quot;</span><span class="s1">,</span><span class="s2">&quot;Maasini Halkbanktan&quot;</span><span class="s1">,</span><span class="s2">&quot;Mutlu Emekli&quot;</span><span class="s1">};</span>
+
+        <span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">i = </span><span class="s4">0</span><span class="s1">; i &lt; krediler.length ; i++) {</span>
+            <span class="s1">System.out.println(krediler[i]);</span>
+
+        <span class="s1">}</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
