@@ -10,6 +10,10 @@ public class Product {
     public Product(int i, String iPhone, int i1) {
     }
 
+    public Product() {
+
+    }
+
     public String getName() {
         return name;
     }
